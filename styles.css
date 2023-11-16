@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+
+img {
+    max-width: 200px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+button {
+    background-color: rgb(171, 193, 110);
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
